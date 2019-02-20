@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Materialize Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/responsive_style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-wrapper indigo accent-2">
+                <a href="./index.html" class="brand-logo">Marianna Medhurst</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="./index.html">About</a></li>
+                    <li><a href="./portfolio.html">Portfolio</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="./index.html">About</a></li>
+            <li><a href="./portfolio.html">Portfolio</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+    </header>
+    <main>
+        <div class="main-container">
+            <div class="row">
+                <div class="header-container">
+                    <div class="row">
+                        <div class="col s12">
+                            <p class="section-header">
+                                Portfolio
+                            </p>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="portfolio-container s12">
+                        <div class="cell z-depth-3">
+                            <a href="#"> <img class="portfolio-image" src="./assets/images/puppy.jpg" alt="Puppy">
+                                <p class="image-label">Text</p>
+                            </a>
+                        </div>
+                        <div class="cell z-depth-3">
+                            <a href="#"> <img class="portfolio-image" src="./assets/images/puppy.jpg" alt="Puppy">
+                                <p class="image-label">Text</p>
+                            </a>
+                        </div>
+                        <div class="cell z-depth-3">
+                            <a href="#"> <img class="portfolio-image" src="./assets/images/puppy.jpg" alt="Puppy">
+                                <p class="image-label">Text</p>
+                            </a>
+                        </div>
+                        <div class="cell z-depth-3">
+                            <a href="#"> <img class="portfolio-image" src="./assets/images/puppy.jpg" alt="Puppy">
+                                <p class="image-label">Text</p>
+                            </a>
+                        </div>
+                        <div class="cell z-depth-3">
+                            <a href="#"> <img class="portfolio-image" src="./assets/images/puppy.jpg" alt="Puppy">
+                                <p class="image-label">Text</p>
+                            </a>
+                        </div>
+                        <div class="cell"></div>
+                        <div class="cell z-depth-3">
+                            <a href="#"> <img class="portfolio-image" src="./assets/images/puppy.jpg" alt="Puppy">
+                                <p class="image-label">Text</p>
+                            </a>
+                        </div>
+                        <div class="cell"></div>
+                        <div class="cell"></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="page-footer">
+        <div class="foot-container">
+            <div class="row">
+                <div class="col l6 s12 m12 l12 xl12">
+                    Copyright ©
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.sidenav');
+            var instances = M.Sidenav.init(elems, {});
+        });    
+    </script>
+</body>
+
+</html>

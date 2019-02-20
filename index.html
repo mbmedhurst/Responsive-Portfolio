@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Materialize Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/responsive_style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-wrapper indigo accent-2">
+                <a href="./index.html" class="brand-logo">Marianna Medhurst</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="./index.html">About</a></li>
+                    <li><a href="./portfolio.html">Portfolio</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="./index.html">About</a></li>
+            <li><a href="./portfolio.html">Portfolio</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+    </header>
+    <main>
+        <div class="main-container">
+            <div class="row">
+                <div class="header-container">
+                    <div class="row">
+                        <div class="col s12">
+                            <p class="section-header">
+                                About
+                            </p>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="content-container">
+                    <div class="row">
+                        <!-- I made this a single column and row because I wanted the text to wrap around the image -->
+                        <div class="col s12">
+                            <img class="about-img" src="./assets/images/with_patch.jpg">
+                            <p>I'm originally from Los Angeles but have spent the better part of my adult life moving
+                                from one place to another, including San Diego and the UK (Oxford and London). I've been
+                                back in beautiful SoCal for about five years.</p>
+                            <p>I have a Masters degree in English Literature, which I loved studying in college. But
+                                once I started working I went in a bit of a different direction. For the last 25 years
+                                I’ve worked with business systems in various roles, including technical support,
+                                training, writing user guides, business analysis, user acceptance and usability testing,
+                                and now - finally - as a developer.</p>
+                            <p>In my life away from my computer I enjoy traveling, cooking, watching Dodger baseball and
+                                paddle boarding with my dog.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="page-footer">
+        <div class="foot-container">
+            <div class="row">
+                <div class="col l6 s12 m12 l12 xl12">
+                    Copyright ©
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.sidenav');
+            var instances = M.Sidenav.init(elems, {});
+        });    
+    </script>
+</body>
+
+</html>

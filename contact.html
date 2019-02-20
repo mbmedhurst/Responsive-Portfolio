@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Materialize Portfolio</title>
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/responsive_style.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="nav-wrapper indigo accent-2">
+        <a href="./index.html" class="brand-logo">Marianna Medhurst</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="./index.html">About</a></li>
+          <li><a href="./portfolio.html">Portfolio</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="./index.html">About</a></li>
+      <li><a href="./portfolio.html">Portfolio</a></li>
+      <li><a href="./contact.html">Contact</a></li>
+    </ul>
+  </header>
+  <main>
+    <div class="main-container col s12">
+      <div class="row">
+        <div class="header-container">
+          <div class="row">
+            <div class="col s12">
+              <p class="section-header">
+                Contact
+              </p>
+              <hr>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="page-text col s12">
+          <p>This page looks a little bit better when there are a couple of sentences of page text at the top of the
+            page. Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="form-container">
+          <div class="row">
+            <div class="col s12">
+              <div class="row">
+                <form class="col s12">
+                  <div class="row">
+                    <div class="input-field col s6">
+                      <input id="first_name" type="text" class="validate">
+                      <label for="first_name">First Name</label>
+                    </div>
+                    <div class="input-field col s6">
+                      <input id="last_name" type="text" class="validate">
+                      <label for="last_name">Last Name</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <input id="email" type="email" class="validate">
+                      <label for="email">Email</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <textarea id="textarea1" class="materialize-textarea"></textarea>
+                      <label for="textarea1">Message</label>
+                    </div>
+                  </div>
+              </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="button-container">
+          <div class="row">
+            <a class="waves-effect waves-light btn indigo accent-2">Submit</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="page-footer">
+    <div class="foot-container">
+      <div class="row">
+        <div class="col l6 s12 m12 l12 xl12">
+          Copyright ©
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var elems = document.querySelectorAll('.sidenav');
+      var instances = M.Sidenav.init(elems, {});
+    });    
+  </script>
+</body>
+
+</html>
