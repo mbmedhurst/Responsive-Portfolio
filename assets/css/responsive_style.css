@@ -37,7 +37,7 @@
        align-content: center;
     }
 
-    .main-container {
+    .main-container, .content-container {
        margin: 50px;
     }
 }
@@ -56,7 +56,7 @@
         width: 380px;
     }
 
-    .main-container {
+    .main-container, .content-container {
         margin: 40px 40px;
     }
 }
@@ -73,7 +73,7 @@
         width: 667px;
     }
 
-    .main-container {
+    .main-container, .content-container {
         margin: 50px 50px;
     }
 }
@@ -104,7 +104,7 @@
     nav, .page-footer, main {
         width: 736px;
     }
-    .main-container {
+    .main-container, .content-container {
         margin: 50px;
     }
 
@@ -132,7 +132,7 @@
     nav, .page-footer, main {
         width: 915px;
     }
-    .main-container {
+    .main-container, .content-container {
         /* this only works when I use the 'important' property */
         margin: 75px 45px !important;
     }
@@ -144,7 +144,7 @@
   and (max-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 1)
   and (orientation: portrait) {
-    .main-container {
+    .main-container, .content-container {
         width: 565px;
         margin: 100px 100px;
     }
@@ -155,7 +155,7 @@
   and (max-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 1)
   and (orientation: landscape) {
-    .main-container {
+    .main-container, .content-container {
         width: 815px;
         margin: 100px 100px;
     }
