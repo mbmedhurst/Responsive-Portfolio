@@ -10,6 +10,11 @@ body {
 nav {
   padding-left: 10px;
   background-color: #536dfe;
+  /* position: inherit; */
+}
+
+.nav-wrapper {
+  /* position: inherit; */
 }
 
 main {
@@ -51,34 +56,39 @@ p {
   line-height: 25px;
 }
 
-.portfolio-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  padding-top: 10px;
-  grid-gap: 15px;
+.port-column {
+  /* border: 1px dotted green; */
 }
 
-.cell {
-  display: block;
-  justify-content: center;
+.port-cell {
+  /* border: 1px dotted #536dfe; */
+}
+
+.image-row {
+  margin: 0px;
+}
+
+.image-container {
+  width: 90%;
+  margin: auto;
+  /* background-color: lightgrey; */
+  /* border: 1px dotted red; */
   text-align: center;
 }
 
-.portfolio-image {
-  display: block;
-  object-fit: cover;
+.port-image {
   width: 100%;
-  z-index: -1;
 }
 
-.image-label {
+.text-container{
+  /* position: relative; */
+  width: 90%;
+  margin: auto;
   background-color: #536dfe;
-  font-size: 18px; 
-  padding: 10px 0px 10px 0px;
-  width: 100%;
-  margin: 0px;
   color: white;
+  /* border: 1px dotted red; */
+  text-align: center;
+  padding: 10px;
 }
 
 .page-text {

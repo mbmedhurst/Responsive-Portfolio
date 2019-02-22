@@ -19,6 +19,10 @@
     .main-container {
         margin: 40px 40px;
     }
+
+    .content-container-row {
+        margin: 0%;
+    }
 }
 
 @media only screen 
@@ -59,6 +63,10 @@
     .main-container, .content-container {
         margin: 40px 40px;
     }
+
+    .about-img {
+        margin: -1.75em 0em 2em -0.5em;
+    }
 }
 
 @media only screen 
@@ -73,8 +81,12 @@
         width: 667px;
     }
 
-    .main-container, .content-container {
+    .main-container {
         margin: 50px 50px;
+    }
+
+    .content-container {
+        margin: 50px 10px;
     }
 }
 
@@ -90,6 +102,10 @@
     }
     nav, main, .page-footer {
         width: 415px;
+    }
+
+    .content-container {
+        margin: 40px 45px;
     }
 }
 
@@ -108,6 +124,10 @@
         margin: 50px;
     }
 
+    .about-img {
+        margin: .25em 2em 1em .5em;
+    }
+
 }
 
 /* iPhone X  */
@@ -116,8 +136,20 @@
   and (max-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) { 
+    body {
+        width: 100%
+    }
+
     .brand-logo {
         font-size: 1.5em;
+    }
+
+    .nav-wrapper {
+        position: inherit;
+    }
+
+    .main-container {
+        margin: 60px 40px;
     }
 }
 
@@ -132,9 +164,16 @@
     nav, .page-footer, main {
         width: 915px;
     }
-    .main-container, .content-container {
-        /* this only works when I use the 'important' property */
-        margin: 75px 45px !important;
+    .main-container {
+        margin: 50px 50px;
+    }
+
+    .content {
+        margin-right: 60px;
+    }
+
+    .content-container {
+        margin: 30px 5px;
     }
 }
 
@@ -144,9 +183,13 @@
   and (max-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 1)
   and (orientation: portrait) {
-    .main-container, .content-container {
+    .main-container {
         width: 565px;
-        margin: 100px 100px;
+        margin: 75px 100px;
+    }
+
+    .content-container {
+        margin: 30px 5px;
     }
 }
 
@@ -155,8 +198,12 @@
   and (max-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 1)
   and (orientation: landscape) {
-    .main-container, .content-container {
-        width: 815px;
-        margin: 100px 100px;
+    .main-container {
+        width: 565px;
+        margin: 75px 220px;
+    }
+
+    .content-container {
+        margin: 30px 5px;
     }
 }
