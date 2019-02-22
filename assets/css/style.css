@@ -81,9 +81,8 @@ p {
 }
 
 .text-container{
-  /* position: relative; */
   width: 90%;
-  margin: auto;
+  margin: -2px auto auto auto;
   background-color: #536dfe;
   color: white;
   /* border: 1px dotted red; */
@@ -91,12 +90,23 @@ p {
   padding: 10px;
 }
 
+.text-container-empty {
+  width: 90%;
+  margin: auto;
+  /* background-color: #536dfe; */
+  color: white;
+  /* border: 1px dotted red; */
+  text-align: center;
+  padding: 10px;
+}
+}
+
 .page-text {
   margin-top: -20px;
 }
 
 .form-container {
-  margin-top: 40px;
+  margin: 40px 40px -40px 40px;;
 }
 
 .input-field input[type=text]:focus + label {
@@ -109,7 +119,8 @@ p {
 }
 
 .button-container {
-  margin-left: 10px;
+  margin: 40px 40px 0px 50px;
+  text-align: left;
 }
 
 .waves-effect {
