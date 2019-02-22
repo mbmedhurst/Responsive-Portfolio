@@ -109,11 +109,30 @@ p {
   margin: 40px 40px -40px 40px;;
 }
 
+/* changing the color on the form fields will only work if I add '!important'  */
 .input-field input[type=text]:focus + label {
-  color: #536dfe;
+  color: #536dfe !important;
+}
+
+.input-field input[type=email]:focus + label {
+  color: #536dfe !important;
 }
 
 .input-field input[type=text]:focus {
+  border-bottom: 1px solid #536dfe !important;
+  box-shadow: 0 1px 0 0 #536dfe !important;
+}
+
+.input-field input[type=email]:focus {
+  border-bottom: 1px solid #536dfe !important;
+  box-shadow: 0 1px 0 0 #536dfe !important;
+}
+
+#textarea1:focus + label {
+  color: #536dfe !important;
+}
+
+#textarea1:focus {
   border-bottom: 1px solid #536dfe;
   box-shadow: 0 1px 0 0 #536dfe;
 }
