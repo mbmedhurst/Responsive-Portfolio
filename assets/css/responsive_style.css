@@ -26,6 +26,16 @@
     .content-container-row {
         margin: 0%;
     }
+
+    .form-container {
+        margin: auto;
+        text-align: center;
+    }
+
+    .button-container {
+        margin: auto;
+        text-align: center;
+    }
 }
 
 @media only screen 
