@@ -13,10 +13,6 @@ nav {
   /* position: inherit; */
 }
 
-.nav-wrapper {
-  /* position: inherit; */
-}
-
 main {
   flex: 1 0 auto;
 }
@@ -56,14 +52,6 @@ p {
   line-height: 25px;
 }
 
-.port-column {
-  /* border: 1px dotted green; */
-}
-
-.port-cell {
-  /* border: 1px dotted #536dfe; */
-}
-
 .image-row {
   margin: 0px;
 }
@@ -98,7 +86,6 @@ p {
   /* border: 1px dotted red; */
   text-align: center;
   padding: 10px;
-}
 }
 
 .page-text {
